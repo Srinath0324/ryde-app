@@ -1,0 +1,322 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+build/app/outputs/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Environment and Configuration Files
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# Firebase Configuration Files (SENSITIVE)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+.firebaserc
+# Android Signing Files (SENSITIVE)
+android/key.properties
+**/*.keystore
+**/*.jks
+android/app/debug.keystore
+android/app/release.keystore
+
+# iOS Configuration Files (SENSITIVE)
+ios/Runner/GoogleService-Info.plist
+ios/Runner/GoogleService-Info-Dev.plist
+ios/Runner/GoogleService-Info-Prod.plist
+ios/Runner/GoogleService-Info-Staging.plist
+ios/Runner/GoogleService-Info-Template.plist
+
+# iOS Certificates and Provisioning Profiles
+ios/Runner/*.p12
+ios/Runner/*.mobileprovision
+ios/Runner/*.cer
+ios/Runner/*.pem
+
+# iOS Build Artifacts
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+
+# macOS Configuration Files
+macos/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info-Dev.plist
+macos/Runner/GoogleService-Info-Prod.plist
+
+# Windows Configuration Files
+windows/runner/GoogleService-Info.json
+
+# Linux Configuration Files
+linux/GoogleService-Info.json
+
+# Web Configuration Files
+web/GoogleService-Info.json
+
+# Firebase Functions (if contains sensitive data)
+functions/
+functions/.env
+functions/.env.local
+functions/.env.production
+functions/.env.staging
+
+# IDE and Editor Files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js (if using Firebase Functions)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore this folder
+Ryde figma/
+
+# Additional Flutter/Dart ignores
+*.lock
+!pubspec.lock
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Test coverage
+test_coverage/
+
+# FVM (Flutter Version Management)
+.fvm/
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+
+# System-specific files (CRITICAL)
+android/local.properties
+android/replay_pid*.log
+android/hs_err_pid*.log
+android/*.iml
+
+# Firebase Emulator files
+firebase.json
+firestore.indexes.json
+firestore.rules
+storage.rules
+
+
+# Crashlytics, Performance configs (optional)
+google-services.json
+fabric.properties
+
+# Build outputs
+*.apk
+*.aab
+*.ipa
+
+# Test and debug data files
+**/test_*.dart
+**/mock_*.dart
+**/debug_*.dart
+**/sample_*.dart
+**/example_*.dart
+
+# Development and testing files
+**/dev_*.dart
+**/temp_*.dart
+**/backup_*.dart
+
+# Additional sensitive files
+**/service-account*.json
+**/firebase-adminsdk*.json
+**/google-services*.json
+**/GoogleService-Info*.plist
+**/GoogleService-Info*.json
+
+# Build and cache directories
+.gradle/
+build/
+.cxx/
+*.apk
+*.aab
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# IDE specific files
+*.iml
+.idea/
+.vscode/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Debug files
+*.log
+debug.log
+error.log
+
+# Local publication audit and export workspace (never publish)
+/.private-audit/
+
+# Additional local credentials, editor context, and private exports
+.env.*
+/.aws/
+/.agents/
+/.codex/
+/.cursor/
+/.cursor (Ryde user)/
+/private/
+*.p8
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+**/*firebase-adminsdk*.json
+**/*service-account*.json
+**/*service_account*.json
+**/*serviceAccount*.json
+**/*serviceaccount*.json
+**/application_default_credentials.json
+**/.runtimeconfig.json
+**/credentials.json
+**/secrets.json
+/lib/firebase_options*.dart
+.firebase/
+database.rules.json
+remoteconfig.template.json
+*.bundle
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Audited placeholder templates stay public (never insert real credentials).
+!/env.template
+!/android/app/google-services.template.json
+!/lib/firebase_options.template.dart
+
+# SELECTIVE PUBLIC SHOWCASE: retain UI, assets, generic map/location services,
+# authentication, history, models, and build scaffolding. Exclude core business
+# logic below. These rules do NOT untrack files or remove earlier commits.
+# A public checkout is intentionally incomplete and is not a runnable app.
+
+# Ride dispatch, matching, pricing, negotiation, tracking, and wallet logic
+/lib/services/active_ride_service.dart
+/lib/services/city_detection_service.dart
+/lib/services/driver_response_service.dart
+/lib/services/dynamic_fare_service.dart
+/lib/services/fare_config_setup_service.dart
+/lib/services/fcm_service.dart
+/lib/services/negotiation_service.dart
+/lib/services/real_time_tracking_service.dart
+/lib/services/ride_request_service.dart
+/lib/services/smart_driver_filtering_service.dart
+/lib/services/wallet_service.dart
+
+# State coordination for the private ride workflows
+/lib/providers/driver_response_provider.dart
+/lib/providers/dynamic_fare_provider.dart
+/lib/providers/ride_provider.dart
+/lib/providers/wallet_provider.dart
+
+# Screens that contain substantial workflow logic alongside their UI
+/lib/screens/user_to_driver_matching_screen.dart
+/lib/screens/negotiation_screen.dart
+/lib/screens/tracking_screen.dart
+
+# Internal ride, driver-state, pricing, and negotiation contracts
+/lib/models/driver_response_model.dart
+/lib/models/driver_status_model.dart
+/lib/models/fare_config_model.dart
+/lib/models/negotiation_model.dart
+/lib/models/negotiation_offer_model.dart
+/lib/models/ride_request_model.dart
+
+# Detailed implementation documents also describe the excluded internals.
+/docs/RYDE_USER_PROJECT_DOCUMENTATION.md
+/docs/RYDE_USER_PROJECT_DOCUMENTATION.pdf
+
+.cursor/
