@@ -178,4 +178,4 @@ During booking, the passenger app creates a ride request and listens for respons
   <source src="docs/recordings/Ryde_demo.mp4" type="video/mp4">
 </video>
 
-[Watch the Ryde demo](docs/recordings/ryde_demo.mp4)
+[Watch the Ryde demo](docs/recordings/Ryde_demo.mp4)
