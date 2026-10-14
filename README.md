@@ -174,8 +174,6 @@ During booking, the passenger app creates a ride request and listens for respons
 
 ##  Ryde App Demo
 
-<video width="600" controls>
-  <source src="docs/recordings/Ryde_demo.mp4" type="video/mp4">
-</video>
+https://github.com/user-attachments/assets/3c5569f4-e252-4d5d-a0f9-e86c00450dd8
 
 [Watch the Ryde demo](docs/recordings/Ryde_demo.mp4)
